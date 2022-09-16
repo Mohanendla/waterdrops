@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ededed;
+}
+
+.drops{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    border-radius: 55% 45% 69% 31% / 44% 30% 70% 56% ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+}
+
+.drop::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 55% 45% 69% 31% / 65% 59% 41% 35% ;
+}
+
+.drop::after{
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 55% 45% 69% 31% / 65% 59% 41% 35% ;
+
+}
+
+.drops1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    top: 70px;
+}
+
+.drop1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border-radius: 22% 78% 65% 35% / 36% 32% 68% 64%   ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    
+}
+
+
+.drop1::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 55% 45% 69% 31% / 65% 59% 41% 35% ;
+}
+
+.drop1::after{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    background: #fff;
+    width: 8px;
+    height: 8px;
+    border-radius: 55% 45% 69% 31% / 65% 59% 41% 35% ;
+}
+
+.drops2{
+    position:relative ;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 50px;
+    top: 140px;
+    right: 440px;
+}
+
+.drop2{
+position: absolute;
+width: 50px;
+height: 50px;
+background: transparent;
+border-radius: 22% 78% 65% 35% / 36% 32% 68% 64% ;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+}
+
+.drop2::before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+   width: 12px;
+   height: 10px;
+   border-radius: 55% 45% 69% 31% / 65% 59% 41% 35% ;
+
+}
+
+.drop2::after{
+    content: '';
+  position: absolute;
+   background: #fff;
+   top: 20px;
+   left: 15px;
+   width: 5px;
+   height: 5px;
+   border-radius:55% 45% 69% 31% / 65% 59% 41% 35% ;
+}
+
+
+ 
+
+ 

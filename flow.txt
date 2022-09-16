@@ -1,0 +1,21 @@
+1.    Box- sizing
+            Border - Box
+            Content- Box
+
+      Justify Content
+      Align Item
+
+      background - we can use it for anything
+                   we can apply on background property
+
+
+    position
+         static - it is in same postion
+         relative- moves from its x,y (Origin or current) position
+         absolute- moves from its parent x,y position
+         sticky- sticking same
+
+    Border raius
+    https://9elements.github.io/fancy-border-radius/#49.53.36.32--.  --for getting different shapes of border
+
+    
